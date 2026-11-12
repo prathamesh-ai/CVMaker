@@ -1,0 +1,92 @@
+{
+  "name": "Prathamesh More",
+  "phone": "+91 84828 47824",
+  "location": "Maharashtra, Pune",
+  "email": "pratmore@deloitte.com",
+  "linkedin_url": "",
+  "linkedin_display": "",
+  "website_url": "",
+  "website_display": "",
+  "summary": "Data Scientist with 4+ years of experience in AI/ML and Generative AI, specializing in Agentic AI systems and Retrieval Augmented Generation (RAG). Hands-on experience building multi-agent architectures with autonomous orchestration, hybrid retrieval pipelines, and schema-driven answer generation grounded strictly in retrieved context. Proficient in Python, LangChain, LangGraph, and vector databases.",
+  "education": [
+    {
+      "degree": "Bachelor of Engineering (Mechanical)",
+      "institution": "JSPM\u2019s Rajarshi Shahu College of Engineering",
+      "duration": "2020",
+      "details": "CGPA: 8.51"
+    }
+  ],
+  "skills": [
+    {
+      "category": "Programming",
+      "items": "Python, Java, C"
+    },
+    {
+      "category": "Databases",
+      "items": "MySQL, Oracle, PostgreSQL, MongoDB"
+    },
+    {
+      "category": "ML/AI",
+      "items": "Logistic Regression, Linear Regression, SVMs, Decision Trees, KNN, Ensembles, ANN, RNN, LSTM, CNN"
+    },
+    {
+      "category": "Frameworks & Libraries",
+      "items": "Pandas, NumPy, Matplotlib, Scikit-learn, Keras, TensorFlow"
+    },
+    {
+      "category": "GenAI & NLP",
+      "items": "LangChain, LangGraph, DeepAgents, Tokenization, Chunking, Embedding"
+    },
+    {
+      "category": "Cloud & LLMs",
+      "items": "Azure, GPT-4o, gpt-oss-120b, Llama3.3-70b"
+    },
+    {
+      "category": "Vector Databases & Tools",
+      "items": "Milvus, Chroma, Docling, PyMuPDF"
+    }
+  ],
+  "experience": [
+    {
+      "position": "Consultant",
+      "company": "Deloitte USI",
+      "duration": "May 2025 - Present",
+      "location": "Pune, Maharashtra",
+      "description": [
+        "Building a scalable Multi-Agent platform using the DeepAgents framework (LangGraph-based), where LLM agents autonomously discover skills via SKILL.md instructions, execute Text2SQL and RAG workflows through a middleware-driven tool-calling architecture, and dynamically classify and route queries\u2014replacing hard-coded conditional edges with LLM-driven orchestration.",
+        "Designed a two-stage RAG pipeline with hybrid retrieval (BM25 + dense vectors via Milvus), Reciprocal Rank Fusion, Coherereranking, and source-balanced chunk selection\u2014paired with a document ingestion pipeline using Docling and PyMuPDF parsers to handle heterogeneous PDFs with contextual chunking and domain-specific metadata enrichment.",
+        "Built a production-resilient middleware stack\u2014circuit breakers, rate limiters, protocol parsers for reasoning-model quirks, and agent flow loggers\u2014integrated with OpenAI embeddings, gpt-oss-120b for complex reasoning, and PostgreSQL as the transactional SQL backend.",
+        "Developed schema-driven answer generation with YAML-based formatting rules, answer-type routing (comparison, causal, procedural, factual), and inline citation enforcement\u2014grounding every response strictly in retrieved context to eliminate hallucination."
+      ]
+    },
+    {
+      "position": "Data Scientist",
+      "company": "Tech Mahindra",
+      "duration": "Nov 2024 - May 2025",
+      "location": "Pune, Maharashtra",
+      "description": [
+        "Developed an enterprise-grade RAG-based chatbot capable of retrieving and synthesizing information from 4,000+ heterogeneous PDFs containing structured and unstructured content.",
+        "Built secure, modular pipelines using LangChain and Azure services, incorporating authentication, access control, and environment-specific configurations.",
+        "Utilized OpenAI embedding models with Chroma VectorDB and GPT-4o; evaluated system quality using relevancy scoring between ground truth answers and generated responses.",
+        "Implemented agentic RAG with query decomposition, context validation, and iterative retrieval, improving answer accuracy by 4%.",
+        "Added multilingual query and response support, increasing user adoption and traffic by 11%."
+      ]
+    },
+    {
+      "position": "AI/ML Developer",
+      "company": "Tata Consultancy Services",
+      "duration": "Oct 2021 - Oct 2024",
+      "location": "Pune, Maharashtra",
+      "description": [
+        "Developed and deployed predictive ML models including a Policy Compliance Tracker and Card Limit Optimizer for enterprise financial workflows.",
+        "Performed end-to-end data preprocessing, feature engineering, and exploratory analysis to improve data quality and model robustness.",
+        "Automated compliance monitoring workflows, improving detection accuracy by 16% and reducing operational monitoring costs by 18%.",
+        "Collaborated closely with business stakeholders to translate requirements into ML solutions, iteratively refining models based on real-world feedback.",
+        "Enhanced end-user experience and system usability, contributing to an 8% increase in positive feedback and up to 12% cost savings through process optimization."
+      ]
+    }
+  ],
+  "projects": [],
+  "activities": [],
+  "leadership": []
+}

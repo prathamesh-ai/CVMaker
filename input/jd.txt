@@ -1,0 +1,26 @@
+## Agentic AI Feature & Workflow Development 
+
+Build and integrate AI-driven features using LLM APIs (OpenAI / Azure OpenAI, Anthropic, Gemini on Vertex AI)
+Design and implement tool-using agents (structured function calling, schema validation, retries, fallbacks)
+Build multi-agent workflows when appropriate (e.g., planner/worker, reviewer/critic, specialist routing) and know when a simpler architecture is better
+Create agentic workflows such as document understanding, extraction, reasoning over evidence, task automation, and multi-step decision support
+Own context engineering end-to-end:
+dynamic context assembly (retrieval + state + tool outputs)
+context budgeting and compression/summarization
+grounding strategies to reduce hallucinations and improve consistency
+Implement retrieval-augmented generation (RAG) and search workflows using off-the-shelf vector stores and embedding services 
+Evaluation, Quality & Iteration (Core)
+
+Establish evaluation frameworks for accuracy, reliability, and output quality
+Build task-specific eval suites: golden datasets, adversarial cases, regression tests, and rubric-based scoring
+Set up automated evaluation pipelines and release gates (CI/CD-friendly) tied to prompt/model/version changes
+Define and monitor online metrics (e.g., task success rate, human override rate, safety flags, latency, cost) and run experiments/A-B tests where appropriate
+Use LLM-as-judge responsibly: calibrate, validate, and pair with human labels when needed 
+
+## Engineering, Integration & Observability
+
+Develop scalable backend services and APIs that incorporate AI functionality
+Integrate AI pipelines into existing cloud, microservices, and event-driven architectures
+Implement observability and analytics for all AI features (tracing, evaluations, prompt versioning, cost tracking) Example tooling: Langfuse (and/or OpenTelemetry-compatible stacks)
+Ensure reliability, uptime, performance, and security of AI services
+Build internal tooling for evaluation, testing, prompt/version management, and safe deployment

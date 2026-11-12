@@ -1,0 +1,105 @@
+\documentclass{resume}
+
+\usepackage[left=0.4 in,top=0.4in,right=0.4 in,bottom=0.4in]{geometry} 
+\usepackage{ifthen}
+
+\name{ Prathamesh More } 
+
+
+\address{ +91 84828 47824 \\ Maharashtra, Pune \\ pratmore@deloitte.com }
+
+
+\begin{document}
+
+\begin{rSection}{OBJECTIVE}
+{ Data Scientist with 4+ years of experience in AI/ML and Generative AI, specializing in Agentic AI systems and Retrieval Augmented Generation (RAG). Hands-on experience building multi-agent architectures with autonomous orchestration, hybrid retrieval pipelines, and schema-driven answer generation grounded strictly in retrieved context. Proficient in Python, LangChain, LangGraph, and vector databases. }
+\end{rSection}
+
+\begin{rSection}{Education}
+
+{\bf Bachelor of Engineering (Mechanical) }, JSPM’s Rajarshi Shahu College of Engineering \hfill { 2020 }\\
+CGPA: 8.51
+
+
+\end{rSection}
+
+\begin{rSection}{SKILLS}
+\begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
+
+Programming & Python, Java, C \\
+
+Databases & MySQL, Oracle, PostgreSQL, MongoDB \\
+
+ML/AI & Logistic Regression, Linear Regression, SVMs, Decision Trees, KNN, Ensembles, ANN, RNN, LSTM, CNN \\
+
+Frameworks & Libraries & Pandas, NumPy, Matplotlib, Scikit-learn, Keras, TensorFlow \\
+
+GenAI & NLP & LangChain, LangGraph, DeepAgents, Tokenization, Chunking, Embedding \\
+
+Cloud & LLMs & Azure, GPT-4o, gpt-oss-120b, Llama3.3-70b \\
+
+Vector Databases & Tools & Milvus, Chroma, Docling, PyMuPDF \\
+
+\end{tabular}
+\end{rSection}
+
+\begin{rSection}{EXPERIENCE}
+
+\textbf{ Consultant } \hfill May 2025 - Present\\
+Deloitte USI \hfill \textit{ Pune, Maharashtra }
+ \begin{itemize}
+    \itemsep -3pt {} 
+    
+    \item Building a scalable Multi-Agent platform using the DeepAgents framework (LangGraph-based), where LLM agents autonomously discover skills via SKILL.md instructions, execute Text2SQL and RAG workflows through a middleware-driven tool-calling architecture, and dynamically classify and route queries—replacing hard-coded conditional edges with LLM-driven orchestration.
+    
+    \item Designed a two-stage RAG pipeline with hybrid retrieval (BM25 + dense vectors via Milvus), Reciprocal Rank Fusion, Coherereranking, and source-balanced chunk selection—paired with a document ingestion pipeline using Docling and PyMuPDF parsers to handle heterogeneous PDFs with contextual chunking and domain-specific metadata enrichment.
+    
+    \item Built a production-resilient middleware stack—circuit breakers, rate limiters, protocol parsers for reasoning-model quirks, and agent flow loggers—integrated with OpenAI embeddings, gpt-oss-120b for complex reasoning, and PostgreSQL as the transactional SQL backend.
+    
+    \item Developed schema-driven answer generation with YAML-based formatting rules, answer-type routing (comparison, causal, procedural, factual), and inline citation enforcement—grounding every response strictly in retrieved context to eliminate hallucination.
+    
+ \end{itemize}
+
+\textbf{ Data Scientist } \hfill Nov 2024 - May 2025\\
+Tech Mahindra \hfill \textit{ Pune, Maharashtra }
+ \begin{itemize}
+    \itemsep -3pt {} 
+    
+    \item Developed an enterprise-grade RAG-based chatbot capable of retrieving and synthesizing information from 4,000+ heterogeneous PDFs containing structured and unstructured content.
+    
+    \item Built secure, modular pipelines using LangChain and Azure services, incorporating authentication, access control, and environment-specific configurations.
+    
+    \item Utilized OpenAI embedding models with Chroma VectorDB and GPT-4o; evaluated system quality using relevancy scoring between ground truth answers and generated responses.
+    
+    \item Implemented agentic RAG with query decomposition, context validation, and iterative retrieval, improving answer accuracy by 4%.
+    
+    \item Added multilingual query and response support, increasing user adoption and traffic by 11%.
+    
+ \end{itemize}
+
+\textbf{ AI/ML Developer } \hfill Oct 2021 - Oct 2024\\
+Tata Consultancy Services \hfill \textit{ Pune, Maharashtra }
+ \begin{itemize}
+    \itemsep -3pt {} 
+    
+    \item Developed and deployed predictive ML models including a Policy Compliance Tracker and Card Limit Optimizer for enterprise financial workflows.
+    
+    \item Performed end-to-end data preprocessing, feature engineering, and exploratory analysis to improve data quality and model robustness.
+    
+    \item Automated compliance monitoring workflows, improving detection accuracy by 16% and reducing operational monitoring costs by 18%.
+    
+    \item Collaborated closely with business stakeholders to translate requirements into ML solutions, iteratively refining models based on real-world feedback.
+    
+    \item Enhanced end-user experience and system usability, contributing to an 8% increase in positive feedback and up to 12% cost savings through process optimization.
+    
+ \end{itemize}
+
+\end{rSection} 
+
+
+
+
+
+
+
+\end{document}
